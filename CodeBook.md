@@ -47,10 +47,18 @@ Character vector, with values of 2nd column of 'activity_names'
 Data frame binding test1 and train1 by rows
 
 
-> merg1		   : Data frame with columns which have 'mean()' in the column names of the 'merged' data frame
-> merg2		   : Data frame with columns which have 'std()' in the column names of the 'merged' data frame
-> merg3		   : Data frame with 'Subject' column of the 'merged' data frame
-> merg4		   : Data frame with 'Activity_Code' column of the 'merged' data frame
+> merg1		   : 
+Data frame with columns which have 'mean()' in the column names of the 'merged' data frame
+
+> merg2		   : 
+Data frame with columns which have 'std()' in the column names of the 'merged' data frame
+
+> merg3		   : 
+Data frame with 'Subject' column of the 'merged' data frame
+
+> merg4		   : 
+Data frame with 'Activity_Code' column of the 'merged' data frame
+
 
 > final		   : 
 Data frame combining all the above four merg[i] data frames
@@ -81,6 +89,7 @@ Since 'Activity_Code' is specified earlier, so it varies faster as compared to '
 
 
 > casting$Activity_Code[casting$Activity_Code ==vec1[i]] <- vec2[i]
+
 Naming the columns of the 'merged' data frame, using 'features_names' for 561 columns, and 'Subject' and 'Activity_Code' for last 2 columns.
 Replacing the numbers in Activity_Code column by the Activity labels, which have been already put in the vector 'vec2'
 
