@@ -10,7 +10,7 @@ Step 1 : Create a Folder 'Assignment2'
 
 Step 2 : Unzip the .zip file 'getdata-projectfiles-UCI HAR Dataset.zip' in 'Assignment2' Folder.
 
-Step 3 : Place the 'run_analysis.R' file and the extracted folder 'UCI HAR Dataset' in the same folder 'Assignment2'
+Step 3 : Place the 'run_analysis.R' file and the extracted folder 'UCI HAR Dataset' in the **same folder** 'Assignment2'
 
 Step 4 : Open R console and set working directory as 'Assignment2' folder:
 		 setwd("..\\Assignment2")		

@@ -6,70 +6,70 @@ Assignment 2 for Peer Assessment
 
 List of variables:
 ------------------
-> x1			   : 
+> **x1**			   : 
 Data Frame with 'X_train.txt' data
 
-> s1			   : 
+> **s1**			   : 
 Data Frame with 'subject_train.txt' data
 
-> y1			   : 
+> **y1**			   : 
 Data Frame with 'y_train.txt' data
 
-> x2			   : 
+> **x2**			   : 
 Data Frame with 'X_test.txt' data
 
-> s2			   : 
+> **s2**			   : 
 Data Frame with 'subject_test.txt' data
 
-> y2			   : 
+> **y2**			   : 
 Data Frame with 'y_test.txt' data
 
 
-> train1 		   : 
+> **train1** 		   : 
 Data frame combining all the three variables of 'train': X_train, subject_train, y_train
 
-> test1 		   : 
+> **test1** 		   : 
 Data frame combining all the three variables of 'test': X_test, subject_test, y_test
 
-> features_names : 
+> **features_names** : 
 Data frame with names of 561 features in it, size = 561x2, to be used for naming the columns
 
-> activity_names : 
+> **activity_names** : 
 Data frame with activity_labels in it, size=6x2
 
-> vec1	       : 
+> **vec1**	       : 
 Numeric vector, with values of 1st column of 'activity_names'
 
-> vec2	       : 
+> **vec2**	       : 
 Character vector, with values of 2nd column of 'activity_names'
 
-> merged 		   : 
+> **merged** 		   : 
 Data frame binding test1 and train1 by rows
 
 
-> merg1		   : 
+> **merg1**		   : 
 Data frame with columns which have 'mean()' in the column names of the 'merged' data frame
 
-> merg2		   : 
+> **merg2**		   : 
 Data frame with columns which have 'std()' in the column names of the 'merged' data frame
 
-> merg3		   : 
+> **merg3**		   : 
 Data frame with 'Subject' column of the 'merged' data frame
 
-> merg4		   : 
+> **merg4**		   : 
 Data frame with 'Activity_Code' column of the 'merged' data frame
 
 
-> final		   : 
+> **final**		   : 
 Data frame combining all the above four merg[i] data frames
 
-> melting		   : 
+> **melting**		   : 
 Single column of data with stacks of columns other than 'Activity_Code' and 'Subject' from 'final' data frame
 
-> casting		   : 
+> **casting**		   : 
 Data frame casted from the molten data frame 'melting'.
 
-> DT	   		   : 
+> **DT**	   		   : 
 Converting the data frame 'casting' to data.table 'DT', and then saving it as a .txt file
 
 
