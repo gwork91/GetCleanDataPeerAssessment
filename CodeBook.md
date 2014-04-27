@@ -74,7 +74,7 @@ Converting the data frame 'casting' to data.table 'DT', and then saving it as a 
 
 
 
-Commands  :
+Main Commands and Transformations :
 -----------
 > merg1 <- merged[grep("mean()", names(merged),fixed=TRUE)]
 
@@ -94,4 +94,8 @@ Naming the columns of the 'merged' data frame, using 'features_names' for 561 co
 Replacing the numbers in Activity_Code column by the Activity labels, which have been already put in the vector 'vec2'
 
 
-
+Data :
+------
+'tidy_data.txt' file holds the data for each of the variables depending upon the 'activity' and the 'subject'.
+It has dimension of 180 x 68. 
+Relevant Data can be searched on the basis of the first two columns of Activity and Subject.
